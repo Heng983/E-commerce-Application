@@ -123,7 +123,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                             ),
                           ),
                           content: Text(
-                            "This feature comming soon!",
+                            "This feature coming soon!",
                             style: TextStyle(
                               color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                             ),
@@ -165,7 +165,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                             ),
                           ),
                           content: Text(
-                            "This feature comming soon!",
+                            "This feature coming soon!",
                             style: TextStyle(
                               color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                             ),
@@ -234,7 +234,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                             ),
                           ),
                           content: Text(
-                            "This feature comming soon!",
+                            "This feature coming soon!",
                             style: TextStyle(
                               color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                             ),
@@ -326,7 +326,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                             ),
                           ),
                           content: Text(
-                            "This feature comming soon!",
+                            "This feature coming soon!",
                             style: TextStyle(
                               color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                             ),
@@ -395,7 +395,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               ),
                             ),
                             content: Text(
-                              "This feature comming soon!",
+                              "This feature coming soon!",
                               style: TextStyle(
                                 color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                               ),
@@ -437,7 +437,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               ),
                             ),
                             content: Text(
-                              "This feature comming soon!",
+                              "This feature coming soon!",
                               style: TextStyle(
                                 color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                               ),
@@ -479,7 +479,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               ),
                               ),
                             content: Text(
-                              "This feature comming soon!",
+                              "This feature coming soon!",
                               style: TextStyle(
                                 color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                               ),
