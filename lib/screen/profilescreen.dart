@@ -134,6 +134,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               child: Text(
                                 "Close",
                                 style: TextStyle(
+                                  fontWeight: FontWeight.bold,
                                   color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                 ),
                               )
@@ -176,6 +177,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               child: Text(
                                 "Close",
                                 style: TextStyle(
+                                  fontWeight: FontWeight.bold,
                                   color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                 ),
                               ),
@@ -245,6 +247,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               child: Text(
                                 "Close",
                                 style: TextStyle(
+                                  fontWeight: FontWeight.bold,
                                   color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                 ),
                               )
@@ -337,6 +340,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                               child: Text(
                                 "Close",
                                 style: TextStyle(
+                                  fontWeight: FontWeight.bold,
                                   color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                 ),
                               )
@@ -406,6 +410,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                                 child: Text(
                                   "Close",
                                   style: TextStyle(
+                                    fontWeight: FontWeight.bold,
                                     color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                   ),
                                 )
@@ -448,6 +453,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                                 child: Text(
                                   "Close",
                                   style: TextStyle(
+                                    fontWeight: FontWeight.bold,
                                     color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                   ),
                                 )
@@ -490,6 +496,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                                 child: Text(
                                   "Close",
                                   style: TextStyle(
+                                    fontWeight: FontWeight.bold,
                                     color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
                                   ),
                                 )
@@ -510,6 +517,10 @@ class _ProfilescreenState extends State<Profilescreen> {
                   padding: EdgeInsets.symmetric(vertical: 15),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(
+                      color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
+                      width: 1,
+                    )
                   ),
                 ),
                 child: Text(

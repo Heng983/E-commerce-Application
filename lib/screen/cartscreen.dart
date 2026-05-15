@@ -10,13 +10,13 @@ class CartScreen extends StatefulWidget {
 class _CartScreenState extends State<CartScreen> {
   @override
   Widget build(BuildContext context) {
-    bool isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    bool isDark = Theme.of(context).brightness == Brightness.dark;
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
         centerTitle: true,
           backgroundColor: Theme.of(context).colorScheme.primary,
-          foregroundColor: isDarkMode
+          foregroundColor: isDark
               ? Theme.of(context).colorScheme.onPrimary
               : Theme.of(context).colorScheme.onPrimary,
         title: Text(
@@ -24,6 +24,7 @@ class _CartScreenState extends State<CartScreen> {
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
+            color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
           ),
         ),
       ),

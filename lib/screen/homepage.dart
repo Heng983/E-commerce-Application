@@ -311,7 +311,7 @@ class _HomePageState extends State<HomePage> {
         style: TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold,
-          color: isDark ? Colors.white : Colors.black,
+          color: isDark ? Theme.of(context).colorScheme.onPrimary : Theme.of(context).colorScheme.onPrimary,
         ),
       ),
       const SizedBox(height: 12),
